@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-secundaria: #0F6466;
+    --cor-borda: #2C3532;
+    --cor-terciaria: #FFCB9A;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-borda);
+    /* background-image: url("https://img.freepik.com/vetores-gratis/fundo-gradiente-de-wireframe-abstrato_23-2149009903.jpg?semt=ais_hybrid&w=740");
+    background-color: white;
+    background-blend-mode: multiply;
+    opacity: 0.2; */
+}
+
+div {
+    width: 65%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(212, 212, 212, 0.47);
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input, button {
+    border: 0.2px solid black;
+    height: 40px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
